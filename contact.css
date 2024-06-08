@@ -1,0 +1,16 @@
+.BB{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.BB1{
+    width: 50%;
+    height: 400px;
+}
+.BB2{
+    width: 50%;
+    height: 400px;
+}

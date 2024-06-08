@@ -1,0 +1,54 @@
+.bigbar{
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100%;
+    text-align: center;
+    font-family: "lora";
+}
+.contact-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position:absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-family: "lora";
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    
+}
+
+.contact-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "lora";
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
