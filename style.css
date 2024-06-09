@@ -270,9 +270,8 @@ footer .right{
         }
         .container .iff2 {
             width: 100%;
-            height: 50vh;
-            object-fit: cover;
-            margin-top: 10px;
+            height: 70vh;
+            margin-top: 100px;
         }
         .onvid{
             top: 50%;
